@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css" />
+	<link rel="stylesheet" href="./index.css" />
+	<title>Meu Portifólio</title>
+</head>
+<body>
+	<header class="">
+		<div class="">
+			<div class="">
+				<span class="">
+					Sarah
+					<strong>
+						Photographer
+					</strong>
+				</span>
+				<div class="">
+					<i class="uil uil-bars"></i>
+				</div>
+			</div>
+
+			<nav class="">
+				<ul>
+					<li><a>Sobre Mim</a></li>
+					<li><a>Serviços</a></li>
+					<li><a>Galeria</a></li>
+					<li><a>Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="home">
+		<figure>
+			<img src="./assets/img/profile/pexels-marcelo-chagas-1854897.jpg" alt="Foto de perfil" />
+		</figure>
+		<h1>Eu sou a Sarah Doe</h1>
+		<div>
+			<span>Designer | Social Media | Fotográfa</span>
+		</div>
+		<p>
+			A fotografia é uma forma de sentir, de tocar, de amar. 
+			O que você capturou no momento do clique é capturado para sempre... 
+			Te faz recordar das pequenas coisas, muito depois de você ter esquecido tudo
+		</p>
+		<div>
+			<i class="uil uil-instagram"></i>
+			<i class="uil uil-linkedin-alt"></i>
+			<i class="uil uil-behance-alt"></i>
+			<i class="uil uil-whatsapp"></i>
+		</div>
+	</section>
+
+	<section id="about">
+		<h2>Sobre min</h2>
+		<span>O que você precisa saber</span>
+		<div>
+			<figure>
+				<img src="./assets/img/profile/pexels-ralph-rabago-3214692.jpg" alt="Foto sentada na mesa olhando a camera em sua mão" />
+			</figure>
+		</div>
+		<p>
+			Formada em publicidade, fotografia e moda. 
+			trabalho em estreita colaboração com equipes focadas em design para construir sites e microsites para empresas e pessoas físicas. 
+			Tenho 10 anos de experiencia trabalhando e colaborando em equipes de marketing, branding e design. 
+			Com minha experiencia em interface do usuário e engenharia de produtos, resolvo problemas de produtos e crio experiencias atraentes e utilizáveis na web.
+		</p>
+		<button class="about__buttons">
+			<a download="" href="#">
+				Download Curriculum <i class="uil uil-import"></i>
+			</a>
+		</button>
+	</section>
+
+	<section id="services">
+		<h2>Serviços</h2>
+		<span>O que tenho a oferecer</span>
+		<article>
+			<h3>Design</h3>
+		</article>
+		<article>
+			<h3>Social Media</h3>
+		</article>
+		<article>
+			<h3>Fotografia</h3>
+		</article>
+		<article>
+			<h3>UI Design</h3>
+		</article>
+		<article>
+			<h3>Branding</h3>
+		</article>
+	</section>
+
+	<section id="gallery">
+
+	</section>
+
+	<section id="project" class="">
+		<div class="">
+			<div class="">
+				<div class="">
+					<h2 class="">Você tem algum projeto em mente?</h2>
+					<p class=""> Entre em contato comigo e obtenha 25% de desconto em seu novo projeto.</p>
+					<a href="#contact" class="">
+						Vamos conversar
+						<i class="uil uil-message"></i>
+					</a>
+				</div>
+				<img src="" alt="" class="" />
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="" >
+		<h2 class="">Contacte-me</h2>
+	
+		<div class="">
+			<div>
+				<div class="">
+					<i class="uil uil-whatsapp"></i>
+					<a href="https://wa.me/559292802907" target="_blank">
+						<h3 class="">WhatsApp</h3>
+						<span class="">+55 92 9994-7778</span>
+					</a>
+				</div>
+
+				<div class="">
+					<i class="uil uil-envelope"></i>
+					<a href="mailto:comercial@filipesouzza.adm@gmail.com" target="_blank">
+						<h3 class="">Email</h3>
+						<span class="">filipesouzza.adm@gmail.com</span>
+					</a>
+				</div>
+
+				<div class="">
+					<i class="uil uil-map-marker"></i>
+					<a href="https://goo.gl/maps/PmjsoUYFkE6Cf47H9" target="_blank">
+						<h3 class="">Localização</h3>
+						<span class="">Brasil-Amazonas, Manaus</span>
+					</a>
+				</div>
+			</div>
+
+			<form action="https://formspree.io/f/xwkyyeqp" class="" method="POST">
+				<div class="">
+					<div class="">
+						<label for="name" class="">Nome completo</label>
+						<input
+							id="name"
+							name="Nome"
+							type="text"
+							class="contact__inputs"
+							pattern="(?:(\w+-?\w+)) (?:(\w+))(?: (\w+))?$"
+							data-tipo="nome"
+							required
+						/>
+						<span class="">Este campo não está válido</span>
+					</div>
+
+					<div class="">
+						<label for="email" class="">Email</label>
+						<input
+							id="emaii"
+							name="E-mail"
+							type="email"
+							class="contact__inputs"
+							pattern="(\w|\.)+@\w+\.\w+"
+							data-tipo="email"
+							required
+						/>
+						<span class="">Este campo não está válido</span>
+					</div>
+
+				</div>
+				<div class="">
+					<label for="titulo" class="">Titulo Projeto</label>
+					<input
+						id="titulo"
+						name="Titulo do Projeto"
+						type="text"
+						class="contact__inputs"
+						maxlength="14"
+						data-tipo="projeto"
+						required
+					/>
+					<span class="">Este campo não está válido</span>
+				</div>
+				
+				<div class="">
+					<label for="message" class="">Mensagem</label>
+					<textarea
+						name=""
+						id="message"
+						cols="0"
+						rows="7"
+						class="contact__inputs"
+						maxlength="120"
+						required
+					></textarea>
+				</div>
+
+				<div>
+					<button type="submit" class="">
+						Enviar
+						<i class="uil uil-message"></i>
+					</button>
+				</div>
+			</form>
+			
+		</div>
+	</section>
+
+	<footer>
+
+	</footer>
+</body>
+</html>
